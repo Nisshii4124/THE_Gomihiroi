@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 53edada2878453c40a726826ca2c9137
+timeCreated: 1487558708
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: //RootNode
+    100004: Crow_Bon10
+    100006: Crow_Bon11
+    100008: Crow_Bon12
+    100010: Crow_Bon13
+    100012: Crow_Bon14
+    100014: Crow_Bon15
+    100016: Crow_Bon16
+    100018: Crow_Bon17
+    100020: Crow_Bon18
+    100022: Crow_Bon19
+    100024: Crow_Bon20
+    100026: Crow_Bon21
+    100028: Crow_Bon22
+    100030: Crow_Bon23
+    100032: Crow_Bon24
+    100034: Crow_Bone0
+    100036: Crow_Bone1
+    100038: Crow_Bone2
+    100040: Crow_Bone3
+    100042: Crow_Bone4
+    100044: Crow_Bone5
+    100046: Crow_Bone6
+    100048: Crow_Bone7
+    100050: Crow_Bone8
+    100052: Crow_Bone9
+    100054: Crow_Bone_
+    100056: Crow_Hlpr_
+    100058: OBJ_Crow
+    400000: Box001
+    400002: //RootNode
+    400004: Crow_Bon10
+    400006: Crow_Bon11
+    400008: Crow_Bon12
+    400010: Crow_Bon13
+    400012: Crow_Bon14
+    400014: Crow_Bon15
+    400016: Crow_Bon16
+    400018: Crow_Bon17
+    400020: Crow_Bon18
+    400022: Crow_Bon19
+    400024: Crow_Bon20
+    400026: Crow_Bon21
+    400028: Crow_Bon22
+    400030: Crow_Bon23
+    400032: Crow_Bon24
+    400034: Crow_Bone0
+    400036: Crow_Bone1
+    400038: Crow_Bone2
+    400040: Crow_Bone3
+    400042: Crow_Bone4
+    400044: Crow_Bone5
+    400046: Crow_Bone6
+    400048: Crow_Bone7
+    400050: Crow_Bone8
+    400052: Crow_Bone9
+    400054: Crow_Bone_
+    400056: Crow_Hlpr_
+    400058: OBJ_Crow
+    2300000: Box001
+    2300002: Crow_Bon10
+    2300004: Crow_Bon11
+    2300006: Crow_Bon12
+    2300008: Crow_Bon13
+    2300010: Crow_Bon14
+    2300012: Crow_Bon15
+    2300014: Crow_Bon16
+    2300016: Crow_Bon17
+    2300018: Crow_Bon18
+    2300020: Crow_Bon19
+    2300022: Crow_Bon20
+    2300024: Crow_Bon21
+    2300026: Crow_Bon22
+    2300028: Crow_Bon23
+    2300030: Crow_Bon24
+    2300032: Crow_Bone0
+    2300034: Crow_Bone1
+    2300036: Crow_Bone2
+    2300038: Crow_Bone3
+    2300040: Crow_Bone4
+    2300042: Crow_Bone5
+    2300044: Crow_Bone6
+    2300046: Crow_Bone7
+    2300048: Crow_Bone8
+    2300050: Crow_Bone9
+    2300052: Crow_Bone_
+    2300054: Crow_Hlpr_
+    2300056: OBJ_Crow
+    3300000: Box001
+    3300002: Crow_Bon10
+    3300004: Crow_Bon11
+    3300006: Crow_Bon12
+    3300008: Crow_Bon13
+    3300010: Crow_Bon14
+    3300012: Crow_Bon15
+    3300014: Crow_Bon16
+    3300016: Crow_Bon17
+    3300018: Crow_Bon18
+    3300020: Crow_Bon19
+    3300022: Crow_Bon20
+    3300024: Crow_Bon21
+    3300026: Crow_Bon22
+    3300028: Crow_Bon23
+    3300030: Crow_Bon24
+    3300032: Crow_Bone0
+    3300034: Crow_Bone1
+    3300036: Crow_Bone2
+    3300038: Crow_Bone3
+    3300040: Crow_Bone4
+    3300042: Crow_Bone5
+    3300044: Crow_Bone6
+    3300046: Crow_Bone7
+    3300048: Crow_Bone8
+    3300050: Crow_Bone9
+    3300052: Crow_Bone_
+    3300054: Crow_Hlpr_
+    3300056: OBJ_Crow
+    4300000: Box001
+    4300002: Crow_Bone_
+    4300004: Crow_Bone0
+    4300006: Crow_Bone1
+    4300008: Crow_Bone2
+    4300010: Crow_Bone3
+    4300012: Crow_Bone4
+    4300014: Crow_Bone5
+    4300016: Crow_Bone6
+    4300018: Crow_Bone7
+    4300020: Crow_Bone8
+    4300022: Crow_Bone9
+    4300024: Crow_Bon10
+    4300026: Crow_Bon11
+    4300028: Crow_Bon12
+    4300030: Crow_Bon13
+    4300032: Crow_Bon14
+    4300034: Crow_Bon15
+    4300036: Crow_Bon16
+    4300038: Crow_Hlpr_
+    4300040: Crow_Bon17
+    4300042: Crow_Bon18
+    4300044: Crow_Bon19
+    4300046: Crow_Bon20
+    4300048: Crow_Bon21
+    4300050: Crow_Bon22
+    4300052: Crow_Bon23
+    4300054: Crow_Bon24
+    4300056: OBJ_Crow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
