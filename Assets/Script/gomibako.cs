@@ -43,7 +43,7 @@ public class gomibako : MonoBehaviour
         if (other.gameObject.tag == "Player")//tag「gomibako」のついたオブジェクトにふれたら
         {
             gomisuteru = true;
-            if (Input.GetKeyDown(KeyCode.DownArrow))
+            if (Input.GetKey(KeyCode.DownArrow))
             {
                 sutetagomi = TimeandScore.gomi;
                 TimeandScore.score += sutetagomi * scoreUp * 100;
