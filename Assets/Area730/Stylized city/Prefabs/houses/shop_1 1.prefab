@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4648501479980688}
   - component: {fileID: 95272455231723734}
-  - component: {fileID: 65113120057587880}
+  - component: {fileID: 64411954490419416}
   m_Layer: 0
   m_Name: shop_1 1
   m_TagString: Untagged
@@ -967,8 +967,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1708979916894666}
   m_Mesh: {fileID: 4300016, guid: 49cdbde92041b784cbf635ed62667533, type: 3}
---- !u!65 &65113120057587880
-BoxCollider:
+--- !u!64 &64411954490419416
+MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -977,8 +977,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 17, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
 --- !u!95 &95272455231723734
 Animator:
   serializedVersion: 3
