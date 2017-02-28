@@ -17,3 +17,7 @@ EditorBuildSettings:
     path: Assets/Scene/nakashima4.unity
   - enabled: 1
     path: Assets/Scene/nakashima5.unity
+  - enabled: 1
+    path: Assets/Scene/nakashima6.unity
+  - enabled: 1
+    path: Assets/Scene/ResultScene.unity
