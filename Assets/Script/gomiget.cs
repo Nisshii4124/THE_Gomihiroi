@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class gomiget : MonoBehaviour
 {
-    public bool gomiflg;
-
     // Use this for initialization
     void Start()
     {
-        gomiflg = false;
     }
 
     // Update is called once per frame
@@ -29,22 +26,8 @@ public class gomiget : MonoBehaviour
                 {
                     TimeandScore.gomi += 1;
                     Destroy(gameObject);//オブジェクトを消す
-                    gomiflg = true;
-
-                    TimeandScore.gomi += 1;
-                    Destroy(gameObject);//オブジェクトを消す
-
-                    gomiflg = true;
-
                 }
             }
-        }
-
-        if (gomiflg == true)
-        {         
-            Destroy(gameObject);//オブジェクトを消す
-            TimeandScore.gomi++;
-            gomiflg = false; 
         }
     }
 }
