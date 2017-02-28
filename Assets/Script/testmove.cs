@@ -17,7 +17,7 @@ public class testmove : MonoBehaviour
     private float gravity = 20.0f;
 
     //移動スピード
-    float speed = 1.0f;
+    float speed ;
 
     float inputHorizontal;
     float inputVertical;
@@ -96,15 +96,15 @@ public class testmove : MonoBehaviour
             }
             if (TimeandScore.gomi >= 0)
             {
-                moveSpeed = 4; 
+                moveSpeed = 4*speed; 
 
                 if (TimeandScore.gomi >= 4)
                 {
-                    moveSpeed = 3; 
+                    moveSpeed = 3*speed; 
 
                     if (TimeandScore.gomi >= 5)
                     {
-                        moveSpeed = 2;
+                        moveSpeed = 2*speed;
                     }
                 }
             }
@@ -121,6 +121,14 @@ public class testmove : MonoBehaviour
             // 方向キーの入力値とカメラの向きから、移動方向を決定
             Vector3 moveForward = cameraForward * inputVertical + Camera.main.transform.right * inputHorizontal;
 
+            if (DASH.DashFlag == true)
+            {
+                speed = DASH.Dash;
+            }
+            else
+            {
+                speed = 1.0f;
+            }
             // 移動方向にスピードを掛ける。ジャンプや落下がある場合は、別途Y軸方向の速度ベクトルを足す。
             rb.velocity = moveForward * moveSpeed + new Vector3(0, rb.velocity.y, 0);
 
