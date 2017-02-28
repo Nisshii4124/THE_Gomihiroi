@@ -20,7 +20,7 @@ public class Rank : MonoBehaviour
         loadRanking();
 
         // スコアをランキングに保存
-        saveRanking(gomibako.sutetagomi);
+        saveRanking(TimeandScore.score);
 
         // 見出し
         GameObject Ranking = Instantiate(baseText); // ベースTextをコピー
