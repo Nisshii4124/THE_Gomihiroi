@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gomiget_2 : MonoBehaviour
+public class gomiget : MonoBehaviour
 {
     public bool gomiflg;
 
@@ -27,25 +27,33 @@ public class gomiget_2 : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.UpArrow))
                 {
+<<<<<<< HEAD:Assets/Script/gomiget_2.cs
 
                     TimeandScore.gomi += 1;
                     Destroy(gameObject);//オブジェクトを消す
                     gomiflg = true;
 
+=======
+                    TimeandScore.gomi += 1;
+                    Destroy(gameObject);//オブジェクトを消す
+                    gomiflg = true;
+>>>>>>> 01a5b2366c78b0157f6c1cff37d9525b4aa3364c:Assets/Script/gomiget.cs
 
                     TimeandScore.gomi += 1;
                     Destroy(gameObject);//オブジェクトを消す
 
                     gomiflg = true;
 
+<<<<<<< HEAD:Assets/Script/gomiget_2.cs
 
+=======
+>>>>>>> 01a5b2366c78b0157f6c1cff37d9525b4aa3364c:Assets/Script/gomiget.cs
                 }
             }
         }
 
         if (gomiflg == true)
-        {
-            
+        {         
             Destroy(gameObject);//オブジェクトを消す
             TimeandScore.gomi++;
             gomiflg = false; 

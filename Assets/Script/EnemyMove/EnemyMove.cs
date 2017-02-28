@@ -52,7 +52,7 @@ public class EnemyMove : MonoBehaviour {
             if (enemymove == false)
             {
                 a = a + Time.deltaTime;
-                if (a >= 2)
+                if (a >= 4)
                 {
                     enemymove = true;
                     a = 0;
