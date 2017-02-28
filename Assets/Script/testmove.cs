@@ -7,6 +7,9 @@ public class testmove : MonoBehaviour
     //キャラクターコントローラーへの参照
     CharacterController characterController;
 
+    [SerializeField]
+    Sutamina DASH;
+
     //アニメーターへの参照
     public Animator animator;
 
@@ -93,11 +96,11 @@ public class testmove : MonoBehaviour
             }
             if (TimeandScore.gomi >= 0)
             {
-                moveSpeed = 4; ;
+                moveSpeed = 4; 
 
                 if (TimeandScore.gomi >= 4)
                 {
-                    moveSpeed = 3; ;
+                    moveSpeed = 3; 
 
                     if (TimeandScore.gomi >= 5)
                     {

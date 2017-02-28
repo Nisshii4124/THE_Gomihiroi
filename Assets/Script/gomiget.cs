@@ -4,47 +4,41 @@ using UnityEngine;
 
 public class gomiget : MonoBehaviour
 {
-    public bool gomiflg;
+    Collider Hantei;
 
     // Use this for initialization
     void Start()
     {
-        gomiflg = false;
+        Hantei = GetComponent<Collider>();
+        Hantei.enabled = false;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            Hantei.enabled = true;
+        }
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            Hantei.enabled = false;
+        }
     }
 
-    public void OnTriggerStay(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if (TimeandScore.gomi <= TimeandScore.gomimax)
         {
 
-            if (other.gameObject.tag == "Player")//tag「gomi」のついたオブジェクトにふれたら
+            if (other.gameObject.tag == "gomi")//tag「gomi」のついたオブジェクトにふれたら
             {
-                if (Input.GetKey(KeyCode.UpArrow))
-                {
                     TimeandScore.gomi += 1;
-                    Destroy(gameObject);//オブジェクトを消す
-                    gomiflg = true;
-
-                    TimeandScore.gomi += 1;
-                    Destroy(gameObject);//オブジェクトを消す
-
-                    gomiflg = true;
-
-                }
+                    Destroy(other.gameObject);//オブジェクトを消す
             }
         }
 
-        if (gomiflg == true)
-        {         
-            Destroy(gameObject);//オブジェクトを消す
-            TimeandScore.gomi++;
-            gomiflg = false; 
-        }
+        
     }
 }
