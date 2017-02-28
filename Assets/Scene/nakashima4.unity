@@ -2499,6 +2499,25 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 0.00116
       objectReference: {fileID: 0}
+    - target: {fileID: 114733184414259074, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891428979678450, guid: b9c7de66b5c59e4408981ca4619c26e4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114733184414259074, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: m_Text
+      value: "\u6B8B\u308A\u6642\u9593 000"
+      objectReference: {fileID: 0}
+    - target: {fileID: 224363718081532668, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 175
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9c7de66b5c59e4408981ca4619c26e4, type: 2}
   m_IsPrefabParent: 0
