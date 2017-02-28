@@ -6,7 +6,7 @@ public class gomibako : MonoBehaviour
 {
     public static bool gomisuteru;
 
-    public static int sutetagomi;
+    int sutetagomi;
     int scoreUp = 0;
 
     // Use this for initialization
