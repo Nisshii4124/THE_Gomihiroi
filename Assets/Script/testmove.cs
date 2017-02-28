@@ -17,7 +17,7 @@ public class testmove : MonoBehaviour
     private float gravity = 20.0f;
 
     //移動スピード
-    private float speed = 1.0f;
+    float speed = 1.0f;
 
     float inputHorizontal;
     float inputVertical;
