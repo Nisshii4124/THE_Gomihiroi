@@ -35,7 +35,7 @@ public class Rank2 : MonoBehaviour
         Ranking.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 120);
 
         // 表示するテキスト
-        Ranking.GetComponent<Text>().text = "TOP 5";
+        Ranking.GetComponent<Text>().text = "   TOP 5";
 
         // ランキング表示
         for (int i = 0; i < RANKING_NUM2; i++)
