@@ -21,3 +21,11 @@ EditorBuildSettings:
     path: Assets/Scene/nakashima6.unity
   - enabled: 1
     path: Assets/Scene/ResultScene.unity
+  - enabled: 1
+    path: Assets/Scene/ResultScene3.unity
+  - enabled: 1
+    path: Assets/Scene/ResultScene4.unity
+  - enabled: 1
+    path: Assets/Scene/ResultScene5.unity
+  - enabled: 1
+    path: Assets/Scene/ResultScene6.unity
