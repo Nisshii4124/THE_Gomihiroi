@@ -4,23 +4,23 @@ using System.Collections;
 
 public class Rank4 : MonoBehaviour
 {
-    const string RANKING_PREF_KEY = "ranking";            // セーブキー
-    const int RANKING_NUM         = 5;                    // セーブデータ数
-    int[] ranking                 = new int[RANKING_NUM]; // ランキングデータ保存
+    const string RANKING_PREF_KEY4 = "ranking4";            // セーブキー
+    const int RANKING_NUM4         = 5;                    // セーブデータ数
+    private int[] ranking4         = new int[RANKING_NUM4]; // ランキングデータ保存
 
     // 使いまわしするベースのテキストオブジェクト
     public GameObject baseText;
 
     // ランキング表示用ゲームオブジェクト
-    GameObject[] rankLabel        = new GameObject[RANKING_NUM];
+    GameObject[] rankLabel        = new GameObject[RANKING_NUM4];
 
-    void Start()
+    private void Start()
     {
         // セーブデータをロード
-        loadRanking();
+        loadRanking4();
 
         // スコアをランキングに保存
-        saveRanking(TimeandScore.score);
+        saveRanking4(TimeandScore.score);
 
         // 見出し
         GameObject Ranking = Instantiate(baseText); // ベースTextをコピー
@@ -38,90 +38,90 @@ public class Rank4 : MonoBehaviour
         Ranking.GetComponent<Text>().text = "TOP 5";
 
         // ランキング表示
-        for (int i = 0; i < RANKING_NUM; i++)
+        for (int i = 0; i < RANKING_NUM4; i++)
         {
             rankLabel[i] = Instantiate(baseText);
             rankLabel[i].transform.SetParent(FindObjectOfType<Canvas>().transform);
             rankLabel[i].transform.SetAsFirstSibling();
             Vector2 pos = new Vector2(0, 80 + -30 * i);
             rankLabel[i].GetComponent<RectTransform>().anchoredPosition = pos;
-            rankLabel[i].GetComponent<Text>().text = string.Format("{0}.  {1:00000}", i + 1, ranking[i]);
+            rankLabel[i].GetComponent<Text>().text = string.Format("{0}.  {1:00000}", i + 1, ranking4[i]);
         }
 
     }
 
-    void Update()
+    private void Update()
     {
         // セーブデータ消去用
         if (Input.GetKey(KeyCode.Space))
         {
-            PlayerPrefs.DeleteKey(RANKING_PREF_KEY);
+            PlayerPrefs.DeleteKey(RANKING_PREF_KEY4);
         }
     }
 
     //ランキングを PlayerPrefs から取得して ranking に格納
-    void loadRanking()
+    private void loadRanking4()
     {
         // セーブデータをロードし、_rankingへ保存
         // セーブデータがない場合はdefaultValue = ""が_rankingへ保存される
-        string _ranking = PlayerPrefs.GetString(RANKING_PREF_KEY);
+        string _ranking4 = PlayerPrefs.GetString(RANKING_PREF_KEY4);
 
         // 文字列を「,」で分割して、整数型にし、ranking配列に格納
-        if (_ranking.Length > 0)
+        if (_ranking4.Length > 0)
         {
-            string[] _score = _ranking.Split(',');
+            string[] _score = _ranking4.Split(',');
 
-            for (int i = 0; i < RANKING_NUM; i++)
+            for (int i = 0; i < RANKING_NUM4; i++)
             {
-                ranking[i] = int.Parse(_score[i]);
-                Debug.Log(string.Format("{0}", ranking[i]));
+                ranking4[i] = int.Parse(_score[i]);
+                Debug.Log(string.Format("{0}", ranking4[i]));
             }
         }
         else
         {
             // セーブデータがない場合、すべてのスコアに０を代入
-            for (int i = 0; i < RANKING_NUM; i++)
+            for (int i = 0; i < RANKING_NUM4; i++)
             {
-                ranking[i] = 0;
+                ranking4[i] = 0;
             }
         }
     }
 
     // 新たにスコアを保存する
-    void saveRanking(int new_score)
+    private void saveRanking4(int new_score4)
     {
-        if (ranking[0] != 0)
+        if (ranking4[0] != 0)
         {
             // セーブデータがあるときは順次比較して、小さいほうを次の配列へ
-            for (int i = 0; i < RANKING_NUM; i++)
+            for (int i = 0; i < RANKING_NUM4; i++)
             {
-                if (ranking[i] < new_score)
+                if (ranking4[i] < new_score4)
                 {
-                    int _tmp = ranking[i];
-                    ranking[i] = new_score;
-                    new_score = _tmp;
+                    int _tmp4 = ranking4[i];
+                    ranking4[i] = new_score4;
+                    new_score4 = _tmp4;
                 }
             }
         }
         else
         {
             // セーブデータがなかったときは、先頭に代入
-            ranking[0] = new_score;
+            ranking4[0] = new_score4;
         }
 
         // 「整数(int)」を「文字列(string)」に変換
-        string[] str = new string[RANKING_NUM];
-        for (int i = 0; i < RANKING_NUM; i++)
+        string[] str4 = new string[RANKING_NUM4];
+        for (int i = 0; i < RANKING_NUM4; i++)
         {
-            str[i] = ranking[i].ToString();
+            str4[i] = ranking4[i].ToString();
         }
 
         // 変換した文字列をカンマ区切りで連結し、１つの文字列へ
-        string ranking_string = string.Join(",", str);
-        Debug.Log(string.Format("savedata : {0}", ranking_string));
+        string ranking_string4 = string.Join(",", str4);
+        Debug.Log(string.Format("savedata4 : {0}", ranking_string4));
 
         // 一つにした文字列をセーブデーターとして保存
-        PlayerPrefs.SetString(RANKING_PREF_KEY, ranking_string);
+        PlayerPrefs.SetString(RANKING_PREF_KEY4, ranking_string4);
     }
 
 }
