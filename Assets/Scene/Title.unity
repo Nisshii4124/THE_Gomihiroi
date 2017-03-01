@@ -2203,7 +2203,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -112.5}
-  m_SizeDelta: {x: 400, y: 225}
+  m_SizeDelta: {x: 650, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534164440
 MonoBehaviour:
@@ -2237,7 +2237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B4\u30DF\u62FE\u3044\n"
+  m_Text: "THE \u30B4\u30DF\u62FE\u3044\n"
 --- !u!222 &534164441
 CanvasRenderer:
   m_ObjectHideFlags: 0
