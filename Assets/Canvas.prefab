@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be665b10357ebd46a3f2db4f6843a44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastTime: 0
+  lastTime: 100
   gomiLabel: {fileID: 114632925927489148}
   scoreLabel: {fileID: 114374888723989402}
   timeLabel: {fileID: 114401388684408544}
