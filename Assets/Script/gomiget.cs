@@ -12,6 +12,10 @@ public class gomiget : MonoBehaviour
     {
         Hantei = GetComponent<Collider>();
         Hantei.enabled = false;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 395e9353f6196fb3eb7055649d51d2d39032ea0c
     }
     // Update is called once per frame
     void Update()
@@ -33,6 +37,42 @@ public class gomiget : MonoBehaviour
 
             if (other.gameObject.tag == "gomi")//tag「gomi」のついたオブジェクトにふれたら
             {
+<<<<<<< HEAD
+
+
+                if (Input.GetKey(KeyCode.UpArrow))
+                
+
+
+                    TimeandScore.gomi += 1;
+                    Destroy(gameObject);//オブジェクトを消す
+
+
+
+                    TimeandScore.gomi += 1;
+                    Destroy(gameObject);//オブジェクトを消す
+
+
+
+                    TimeandScore.gomi += 1;
+                    Destroy(gameObject);//オブジェクトを消す
+                    //gomiflg = true;
+
+
+
+                    TimeandScore.gomi += 1;
+                    Destroy(gameObject);//オブジェクトを消す
+
+
+
+
+
+                TimeandScore.gomi += 1;
+                Destroy(other.gameObject);//オブジェクトを消す
+
+
+=======
+>>>>>>> 395e9353f6196fb3eb7055649d51d2d39032ea0c
                 if (Input.GetKey(KeyCode.UpArrow))
                 {
                     TimeandScore.gomi += 1;
@@ -40,6 +80,10 @@ public class gomiget : MonoBehaviour
                     Destroy(other.gameObject);//オブジェクトを消す
 
                 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 395e9353f6196fb3eb7055649d51d2d39032ea0c
             }
         }
     }
