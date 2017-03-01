@@ -1123,6 +1123,21 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114809816120039198, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: DashFlag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114600850979777190, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: nextSceneName
+      value: ResultScene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114147739291772452, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: lastTime
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9c7de66b5c59e4408981ca4619c26e4, type: 2}
   m_IsPrefabParent: 0
@@ -4717,7 +4732,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1614431621}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 2, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5212,7 +5227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8137b3dd305bd1441888d669f4013b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DASH: {fileID: 0}
+  DASH: {fileID: 2128552012}
   animator: {fileID: 1758661875}
 --- !u!54 &1758661868
 Rigidbody:
@@ -6257,6 +6272,7 @@ GameObject:
   - component: {fileID: 2112848134}
   - component: {fileID: 2112848136}
   - component: {fileID: 2112848135}
+  - component: {fileID: 2112848137}
   m_Layer: 0
   m_Name: GET
   m_TagString: Untagged
@@ -6304,6 +6320,17 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &2112848137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2112848133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7434134f8932c4bb3f8df9cc27ea36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2119638381
 GameObject:
   m_ObjectHideFlags: 0
@@ -6334,3 +6361,9 @@ Transform:
   m_Father: {fileID: 1408035885}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2128552012 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114809816120039198, guid: b9c7de66b5c59e4408981ca4619c26e4,
+    type: 2}
+  m_PrefabInternal: {fileID: 340796244}
+  m_Script: {fileID: 11500000, guid: 7f2d4c5fb1456fa4abd9c0cdb0893981, type: 3}
