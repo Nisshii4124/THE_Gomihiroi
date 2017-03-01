@@ -6,7 +6,7 @@ public class gomibako : MonoBehaviour
 {
     public static bool gomisuteru;
 
-    int sutetagomi;
+    public int sutetagomi;
     int scoreUp = 0;
     AudioSource SE;
 
@@ -20,6 +20,7 @@ public class gomibako : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        sutetagomi = TimeandScore.gomi;
         if (sutetagomi == 0)
         {
             scoreUp = 1;
@@ -47,7 +48,7 @@ public class gomibako : MonoBehaviour
             gomisuteru = true;
             if (Input.GetKey(KeyCode.DownArrow))
             {
-                sutetagomi = TimeandScore.gomi;
+                
                 TimeandScore.score += sutetagomi * scoreUp * 100;
                 sutetagomi = 0;
                 TimeandScore.gomi = 0;

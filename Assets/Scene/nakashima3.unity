@@ -1136,7 +1136,7 @@ Prefab:
     - target: {fileID: 114147739291772452, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
       propertyPath: lastTime
-      value: 20
+      value: 300
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9c7de66b5c59e4408981ca4619c26e4, type: 2}
@@ -5154,13 +5154,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1614431621}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: -5}
+  m_LocalRotation: {x: 0.14437123, y: -0, z: -0, w: 0.98952365}
+  m_LocalPosition: {x: 0, y: 2.98, z: -4.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 16.602001, y: 0, z: 0}
 --- !u!114 &1614431627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6694,7 +6694,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2112848134}
   - component: {fileID: 2112848136}
+<<<<<<< HEAD
   - component: {fileID: 2112848137}
+=======
+>>>>>>> 2188a26f3573afef09168c795ebc7d397717408d
   - component: {fileID: 2112848135}
   m_Layer: 0
   m_Name: GET
@@ -6724,6 +6727,7 @@ AudioSource:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2112848133}
   m_Enabled: 1
+<<<<<<< HEAD
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1418cb1807d359d458b71b8db1e982a5, type: 3}
@@ -6797,6 +6801,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc4567bf22cae541ac03e35718d4943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> 2188a26f3573afef09168c795ebc7d397717408d
 --- !u!136 &2112848136
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6811,17 +6821,6 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
---- !u!114 &2112848137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2112848133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c7434134f8932c4bb3f8df9cc27ea36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2119638381
 GameObject:
   m_ObjectHideFlags: 0
