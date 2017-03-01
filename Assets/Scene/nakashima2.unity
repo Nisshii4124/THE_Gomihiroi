@@ -384,6 +384,7 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 114600850979777190, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
       propertyPath: nextSceneName
@@ -393,6 +394,12 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: b9c7de66b5c59e4408981ca4619c26e4, type: 2}
   m_IsPrefabParent: 0
 --- !u!114 &234250666 stripped
+=======
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9c7de66b5c59e4408981ca4619c26e4, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &367295412 stripped
+>>>>>>> 589c7df04f4afc883c871ed60e033c803b889d16
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114809816120039198, guid: b9c7de66b5c59e4408981ca4619c26e4,
     type: 2}
@@ -441,7 +448,11 @@ Prefab:
         type: 2}
       propertyPath: DASH
       value: 
+<<<<<<< HEAD
       objectReference: {fileID: 234250666}
+=======
+      objectReference: {fileID: 367295412}
+>>>>>>> 589c7df04f4afc883c871ed60e033c803b889d16
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c07ebbca550b4c1458bb983077d41fde, type: 2}
   m_IsPrefabParent: 0
@@ -543,7 +554,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1310012265}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 2, z: -5}
+=======
+  m_LocalPosition: {x: 0, y: 2, z: -4}
+>>>>>>> 589c7df04f4afc883c871ed60e033c803b889d16
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -561,6 +576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CameraSpeed: 100
+<<<<<<< HEAD
 --- !u!1 &1495247266
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,6 +706,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1495247266}
   m_Mesh: {fileID: 4300050, guid: 72e643619fa32984785527a0c110a313, type: 3}
+=======
+>>>>>>> 589c7df04f4afc883c871ed60e033c803b889d16
 --- !u!1 &1645069058
 GameObject:
   m_ObjectHideFlags: 0

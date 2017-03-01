@@ -30,10 +30,10 @@ public class gomiget : MonoBehaviour
     {
         if (TimeandScore.gomi <= TimeandScore.gomimax)
         {
-
             if (other.gameObject.tag == "gomi")//tag「gomi」のついたオブジェクトにふれたら
             {
                 if (Input.GetKey(KeyCode.UpArrow))
+                {
 
                     TimeandScore.gomi += 1;
                     Destroy(other.gameObject);//オブジェクトを消す
@@ -42,7 +42,4 @@ public class gomiget : MonoBehaviour
             }
         }
     }
-
-        
-
-
+}
