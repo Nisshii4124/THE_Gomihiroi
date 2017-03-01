@@ -8,11 +8,13 @@ public class gomibako : MonoBehaviour
 
     int sutetagomi;
     int scoreUp = 0;
+    AudioSource SE;
 
     // Use this for initialization
     void Start()
     {
         gomisuteru = false;
+        SE = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -49,6 +51,7 @@ public class gomibako : MonoBehaviour
                 TimeandScore.score += sutetagomi * scoreUp * 100;
                 sutetagomi = 0;
                 TimeandScore.gomi = 0;
+                SE.Play();
             }
         }
     }

@@ -6,12 +6,13 @@ public class gomiget : MonoBehaviour
 {
 
     Collider Hantei;
-
+    AudioSource SE;
     // Use this for initialization
     void Start()
     {
         Hantei = GetComponent<Collider>();
         Hantei.enabled = false;
+        SE = GetComponent<AudioSource>();
     }
     // Update is called once per frame
     void Update()
@@ -34,10 +35,9 @@ public class gomiget : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.UpArrow))
                 {
-
                     TimeandScore.gomi += 1;
-                    Destroy(other.gameObject);//オブジェクトを消す
-
+                    Destroy(other.gameObject);  //オブジェクトを消す
+                    SE.Play(); 
                 }
             }
         }
