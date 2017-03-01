@@ -91,6 +91,12 @@ NavMeshSettings:
     cellSize: 0.16666667
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &780467953 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114809816120039198, guid: b9c7de66b5c59e4408981ca4619c26e4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1951996407}
+  m_Script: {fileID: 11500000, guid: 7f2d4c5fb1456fa4abd9c0cdb0893981, type: 3}
 --- !u!1001 &940968830
 Prefab:
   m_ObjectHideFlags: 0
@@ -130,6 +136,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114828166405959858, guid: c07ebbca550b4c1458bb983077d41fde,
+        type: 2}
+      propertyPath: DASH
+      value: 
+      objectReference: {fileID: 780467953}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c07ebbca550b4c1458bb983077d41fde, type: 2}
   m_IsPrefabParent: 0
@@ -392,6 +403,31 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224218521687510164, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224218521687510164, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224686245797239494, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224686245797239494, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224686245797239494, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9c7de66b5c59e4408981ca4619c26e4, type: 2}
