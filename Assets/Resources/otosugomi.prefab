@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 111469304491989260}
   - component: {fileID: 64689779551914130}
   - component: {fileID: 114434019034817130}
-  - component: {fileID: 114286432464040654}
   - component: {fileID: 114448764357451236}
   m_Layer: 0
   m_Name: otosugomi
@@ -112,17 +111,6 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &114286432464040654
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1186242097923210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcc4567bf22cae541ac03e35718d4943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114434019034817130
 MonoBehaviour:
   m_ObjectHideFlags: 1

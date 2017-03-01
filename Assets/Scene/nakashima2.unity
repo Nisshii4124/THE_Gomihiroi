@@ -264,7 +264,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 234250665}
   m_Script: {fileID: 11500000, guid: 7f2d4c5fb1456fa4abd9c0cdb0893981, type: 3}
---- !u!1001 &741303043
+--- !u!1001 &958017663
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -308,6 +308,14 @@ Prefab:
       propertyPath: DASH
       value: 
       objectReference: {fileID: 367295412}
+    - target: {fileID: 1527531707066754, guid: c07ebbca550b4c1458bb983077d41fde, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719675580318250, guid: c07ebbca550b4c1458bb983077d41fde, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c07ebbca550b4c1458bb983077d41fde, type: 2}
   m_IsPrefabParent: 0
@@ -393,7 +401,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1310012265}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: -4}
+  m_LocalPosition: {x: 0, y: 2, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
