@@ -36,32 +36,12 @@ public class gomiget : MonoBehaviour
                 if (Input.GetKey(KeyCode.UpArrow))
 
                     TimeandScore.gomi += 1;
-                Destroy(gameObject);//オブジェクトを消す
-
-                TimeandScore.gomi += 1;
-                Destroy(gameObject);//オブジェクトを消す
-
-                TimeandScore.gomi += 1;
-                Destroy(gameObject);//オブジェクトを消す
-                                    //gomiflg = true;
-
-                TimeandScore.gomi += 1;
-                Destroy(gameObject);//オブジェクトを消す
-
-                TimeandScore.gomi += 1;
-                Destroy(other.gameObject);//オブジェクトを消す
-
-                if (Input.GetKey(KeyCode.UpArrow))
-                {
-                    TimeandScore.gomi += 1;
-
                     Destroy(other.gameObject);//オブジェクトを消す
 
                 }
             }
         }
     }
-}
 
         
 

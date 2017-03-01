@@ -56,7 +56,15 @@ public class Sutamina : MonoBehaviour {
         //ダッシュの管理。各フラグがおkって時にダッシュできるようにする
         if (SUTAMINA.value != SUTAMINA.minValue)
         {
-            Dash = (TimeandScore.gomimax-TimeandScore.gomi)/3 ;
+            if (TimeandScore.gomi < 4)
+            {
+                Dash = (TimeandScore.gomimax - TimeandScore.gomi) * 0.5f;
+            }
+            else
+            {
+                Dash = 1.2f;
+            }
+
             if (ReCaverOK == true)
             {
 
