@@ -2,6 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+<<<<<<< HEAD
+public class gomiget : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+}
+=======
 public class gomiget : MonoBehaviour
 {
 
@@ -46,3 +60,4 @@ public class gomiget : MonoBehaviour
         
 
 
+>>>>>>> ef4309bdfd6cde3ca437abe357fbc2afedba9050
