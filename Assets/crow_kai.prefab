@@ -26,7 +26,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1936109062555798
 GameObject:
@@ -38,12 +38,13 @@ GameObject:
   - component: {fileID: 4842264976484356}
   - component: {fileID: 64525549541481502}
   - component: {fileID: 114660027145336588}
+  - component: {fileID: 114513100491874868}
   m_Layer: 0
   m_Name: crow_kai
   m_TagString: crow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4481194082728196
 Transform:
@@ -124,6 +125,18 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300056, guid: c3a7eede15ed78c40a02f9565afbd881, type: 3}
+--- !u!114 &114513100491874868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1936109062555798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227bc21de81b74d4e9550bf9531d252e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!114 &114660027145336588
 MonoBehaviour:
   m_ObjectHideFlags: 1
