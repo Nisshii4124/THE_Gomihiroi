@@ -1062,7 +1062,7 @@ GameObject:
   - component: {fileID: 1393961538}
   - component: {fileID: 1393961537}
   m_Layer: 5
-  m_Name: Image
+  m_Name: StageImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1098,11 +1098,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xxxImage: {fileID: 1393961538}
-  xxxImage1: {fileID: 21300000, guid: 32221b40538d364489364212d9fa3c2c, type: 3}
-  xxxImage2: {fileID: 21300000, guid: 09647f103a6441e43ae6dda94b9c295e, type: 3}
-  xxxImage3: {fileID: 21300000, guid: a41ebf56887a0ef4b964e22abd6981ae, type: 3}
-  xxxImage4: {fileID: 21300000, guid: ff15c38e1a6952a4cb3b2898dab6385e, type: 3}
-  xxxImage5: {fileID: 21300000, guid: ca56c28772652304691bc7a7c7e2970b, type: 3}
+  xxxImage1: {fileID: 21300000, guid: 15da1fa4bdb14674cb54a2f5517a0455, type: 3}
+  xxxImage2: {fileID: 21300000, guid: c92ea27ed1469fa41962b8d3e1ea3ce4, type: 3}
+  xxxImage3: {fileID: 21300000, guid: 1cc84865b6a17b747ae41d92be1fbf26, type: 3}
+  xxxImage4: {fileID: 21300000, guid: e3923133026a09740a139e977e07d2dd, type: 3}
+  xxxImage5: {fileID: 21300000, guid: e93810ff71083c94283747b70dbc864a, type: 3}
   xxxImage6: {fileID: 21300000, guid: d2702238a8a14dd46bdcbef9ebbd4046, type: 3}
 --- !u!114 &1393961538
 MonoBehaviour:
@@ -1123,7 +1123,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 32221b40538d364489364212d9fa3c2c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 15da1fa4bdb14674cb54a2f5517a0455, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
