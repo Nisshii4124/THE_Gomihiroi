@@ -38,9 +38,9 @@ public class Enemy : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        //if (other.gameObject.tag == "Player")
+        //if (other.gameObject.tag == "filed")
         //    tuibi = false;
-        if (other.gameObject.tag == "field")
+        if (other.gameObject.tag == "Player")
         {
             tuibi = false;
             if (TimeandScore.gomi > 0)
