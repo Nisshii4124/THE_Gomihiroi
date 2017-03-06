@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class TimeandScore : MonoBehaviour
 {
-    public static int score = 0;
-    public static int gomi = 0;
+    public static int score;
+    public static int gomi;
     public static int gomimax = 4;
 
     public static bool gameFlg;  // ゲームシーンの状態
@@ -22,9 +22,12 @@ public class TimeandScore : MonoBehaviour
     void Start()
     {
         gameFlg = true;   // ゲーム実行中のフラグをONに
+        score = 0;
+        gomi = 0;
 
-        // 「TimeUp!!」はじめは非表示
-        timeUpLabel.GetComponent<CanvasRenderer>().SetAlpha(0.0f);
+
+    // 「TimeUp!!」はじめは非表示
+    timeUpLabel.GetComponent<CanvasRenderer>().SetAlpha(0.0f);
     }
 
     // Update is called once per frame
