@@ -122,6 +122,7 @@ public class Rank3 : MonoBehaviour
 
         // 一つにした文字列をセーブデーターとして保存
         PlayerPrefs.SetString(RANKING_PREF_KEY3, ranking_string3);
+        
     }
 
 }
