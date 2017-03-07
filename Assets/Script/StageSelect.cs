@@ -14,7 +14,7 @@ public class StageSelect : MonoBehaviour
 
     Image FadeImage;          // フェードに利用する画像保存用変数
 
-    public static float SelectStage;
+    public static float SelectStage = 1;
 
     bool isFadeIn;      // フェードインフラグ
     bool isFadeOut;     // フェードアウトフラグ
@@ -34,7 +34,7 @@ public class StageSelect : MonoBehaviour
         isFadeIn = true;  // フェードインON
         isFadeOut = false; // フェードアウトOFF
 
-        SelectStage = 1;
+        //SelectStage = 1;
 
         alpha1 = 0.0f;
         alpha2 = 0.0f;
