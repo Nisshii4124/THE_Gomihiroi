@@ -2680,7 +2680,7 @@ Prefab:
     - target: {fileID: 114600850979777190, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
       propertyPath: nextSceneName
-      value: ResultScene4
+      value: ResultScene5
       objectReference: {fileID: 0}
     - target: {fileID: 114147739291772452, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
