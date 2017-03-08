@@ -70,7 +70,7 @@ public class TimeandScore : MonoBehaviour
                 timeLabel.GetComponent<CanvasRenderer>().SetColor(col);
             }
         }
-        scoreLabel.text = string.Format("ポイント {0:0000}", score);
+        scoreLabel.text = string.Format("ポイント {0:00000}", score);
 
         gomiLabel.text = string.Format("ゴミの数 {0}/5", gomi);
 
