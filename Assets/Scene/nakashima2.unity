@@ -538,32 +538,41 @@ Prefab:
     - target: {fileID: 224218521687510164, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224218521687510164, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224686245797239494, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224686245797239494, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224686245797239494, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114600850979777190, guid: b9c7de66b5c59e4408981ca4619c26e4,
         type: 2}
       propertyPath: nextSceneName
       value: ResultScene2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114147739291772452, guid: b9c7de66b5c59e4408981ca4619c26e4,
+        type: 2}
+      propertyPath: lastTime
+      value: 330
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795860066233936, guid: b9c7de66b5c59e4408981ca4619c26e4, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9c7de66b5c59e4408981ca4619c26e4, type: 2}

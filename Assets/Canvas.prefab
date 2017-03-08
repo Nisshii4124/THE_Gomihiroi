@@ -146,7 +146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1850686728017422
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be665b10357ebd46a3f2db4f6843a44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastTime: 100
+  lastTime: 90
   gomiLabel: {fileID: 114632925927489148}
   scoreLabel: {fileID: 114374888723989402}
   timeLabel: {fileID: 114401388684408544}
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30DD\u30A4\u30F3\u30C8 0000"
+  m_Text: "\u30DD\u30A4\u30F3\u30C8 00000"
 --- !u!114 &114401388684408544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4593d87f49fc97a4ab9b14ea3b1295dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: StageSelect
+  nextSceneName: ResultScene1
   FadeImage: {fileID: 114723474101645444}
 --- !u!114 &114632925927489148
 MonoBehaviour:
@@ -553,7 +553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -667,7 +667,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 20, y: -10}
-  m_SizeDelta: {x: 200, y: 35}
+  m_SizeDelta: {x: 220, y: 35}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224218521687510164
 RectTransform:
